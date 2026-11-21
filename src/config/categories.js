@@ -2,17 +2,17 @@ export const CATEGORIES = Object.freeze([
   {
     id: 'global-economy',
     label: 'Global Economy',
-    keywords: ['global economy', 'world economy', 'economic growth', 'gdp', 'recession', 'imf', 'world bank', 'economic outlook', 'slowdown', 'stimulus', 'debt ceiling', 'sovereign debt', 'eurozone', 'emerging markets'],
+    keywords: ['global economy', 'world economy', 'economic growth', 'gdp', 'recession', 'imf', 'world bank', 'economic outlook', 'slowdown', 'stimulus', 'debt ceiling', 'sovereign debt', 'eurozone', 'euro zone', 'global growth', 'emerging markets'],
   },
   {
     id: 'stocks',
     label: 'Stock Market',
-    keywords: ['stock', 'stocks', 'shares', 'equities', 's&p 500', 'dow jones', 'dow', 'nasdaq', 'wall street', 'ftse', 'nikkei', 'dax', 'hang seng', 'sensex', 'ipo', 'market rally', 'sell-off', 'selloff', 'bull market', 'bear market', 'stock market crash'],
+    keywords: ['stock', 'shares', 'equities', 's&p 500', 'dow jones', 'dow', 'nasdaq', 'wall street', 'ftse', 'nikkei', 'dax', 'hang seng', 'sensex', 'ipo', 'stock market', 'bull market', 'bear market', 'stock market crash'],
   },
   {
     id: 'forex',
     label: 'Forex Market',
-    keywords: ['forex', 'currency', 'currencies', 'exchange rate', 'dollar index', 'dxy', 'eur/usd', 'usd/jpy', 'gbp/usd', 'usd/cny', 'yen', 'euro', 'sterling', 'yuan', 'greenback', 'aud/usd', 'usd/chf'],
+    keywords: ['forex', 'currency', 'currencies', 'exchange rate', 'dollar index', 'dxy', 'eur/usd', 'usd/jpy', 'gbp/usd', 'usd/cny', 'yen', 'euro', 'sterling', 'yuan', 'greenback', 'aud/usd', 'usd/chf', 'pound', 'british pound', 'australian dollar', 'canadian dollar', 'swiss franc', 'rupee'],
   },
   {
     id: 'crypto',
@@ -32,12 +32,12 @@ export const CATEGORIES = Object.freeze([
   {
     id: 'central-banks',
     label: 'Central Banks & Interest Rates',
-    keywords: ['federal reserve', 'the fed', 'fed', 'fomc', 'powell', 'ecb', 'lagarde', 'bank of england', 'boe', 'bank of japan', 'boj', 'pboc', 'rba', 'central bank', 'interest rate', 'interest rates', 'rate cut', 'rate hike', 'rate decision', 'monetary policy', 'basis points', 'quantitative easing', 'balance sheet'],
+    keywords: ['federal reserve', 'the fed', 'fed', 'fomc', 'powell', 'ecb', 'lagarde', 'bank of england', 'boe', 'bank of japan', 'boj', 'pboc', 'rba', 'central bank', 'interest rate', 'rate cut', 'rate hike', 'hikes rates', 'raises rates', 'cuts rates', 'holds rates', 'rate decision', 'monetary policy', 'basis points', 'quantitative easing'],
   },
   {
     id: 'inflation-jobs',
     label: 'Inflation & Employment',
-    keywords: ['inflation', 'cpi', 'consumer price index', 'ppi', 'pce', 'core inflation', 'deflation', 'nonfarm payrolls', 'payrolls', 'jobs report', 'unemployment', 'jobless claims', 'labor market', 'labour market', 'wages', 'employment'],
+    keywords: ['inflation', 'cpi', 'consumer price index', 'consumer prices', 'ppi', 'pce', 'core inflation', 'deflation', 'nonfarm payrolls', 'payrolls', 'jobs report', 'unemployment', 'jobless claims', 'labor market', 'labour market', 'wages', 'employment'],
   },
   {
     id: 'earnings',
@@ -47,12 +47,13 @@ export const CATEGORIES = Object.freeze([
   {
     id: 'geopolitics-trade',
     label: 'Geopolitical & Trade News',
-    keywords: ['tariff', 'tariffs', 'trade war', 'trade deal', 'sanctions', 'export controls', 'geopolitical', 'war', 'conflict', 'embargo', 'wto', 'trade talks', 'trade deficit', 'supply chain'],
+    keywords: ['tariff', 'trade war', 'trade deal', 'sanctions', 'export controls', 'geopolitical', 'war', 'conflict', 'embargo', 'wto', 'trade talks', 'trade deficit', 'supply chain'],
   },
   {
     id: 'bangladesh',
     label: 'Bangladesh Economy',
-    keywords: ['bangladesh', 'bangladeshi', 'dhaka', 'chattogram', 'chittagong', 'taka', 'bdt', 'bangladesh bank', 'dse', 'dhaka stock exchange', 'cse', 'nbr', 'rmg', 'garment', 'remittance', 'remittances', 'bgmea', 'ecnec', 'bsec'],
+    regional: true,
+    keywords: ['bangladesh', 'bangladeshi', 'dhaka', 'chattogram', 'chittagong', 'taka', 'bdt', 'bangladesh bank', 'dse', 'dhaka stock exchange', 'cse', 'nbr', 'rmg', 'garment', 'remittance', 'bgmea', 'ecnec', 'bsec'],
   },
 ]);
 

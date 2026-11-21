@@ -40,7 +40,7 @@ describe('importance keywords', () => {
     const terms = IMPORTANCE_RULES.map((rule) => rule.term);
     for (const term of ['federal reserve', 'interest rate decision', 'inflation', 'cpi', 'gdp', 'recession',
       'stock market crash', 'market rally', 'bitcoin', 'gold price', 'oil price', 'earnings surprise',
-      'trade war', 'tariffs', 'central bank', 'banking crisis', 'dollar index']) {
+      'trade war', 'tariff', 'central bank', 'banking crisis', 'dollar index']) {
       assert.ok(terms.includes(term), term);
     }
   });
