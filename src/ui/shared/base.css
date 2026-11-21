@@ -1,0 +1,54 @@
+:root {
+  color-scheme: dark;
+  --bg: #0f141b;
+  --surface: #161d27;
+  --fg: #e3e8ef;
+  --muted: #94a0b0;
+  --line: #263142;
+  --accent: #4f9cf0;
+  font: 14px/1.5 system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+button {
+  font: inherit;
+  color: var(--fg);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--accent);
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.muted {
+  color: var(--muted);
+  margin: 0;
+}

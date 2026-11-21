@@ -1,0 +1,58 @@
+{
+  "manifest_version": 3,
+  "name": "MarketPulse",
+  "version": "0.1.0",
+  "description": "Free financial market news from public RSS feeds, ranked by importance, with desktop alerts.",
+  "minimum_chrome_version": "120",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "MarketPulse",
+    "default_popup": "src/ui/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "options_ui": {
+    "page": "src/ui/options/options.html",
+    "open_in_tab": true
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://www.cnbc.com/*",
+    "https://feeds.content.dowjones.io/*",
+    "https://www.investing.com/*",
+    "https://www.coindesk.com/*",
+    "https://cointelegraph.com/*",
+    "https://feeds.bbci.co.uk/*",
+    "https://www.fxstreet.com/*",
+    "https://oilprice.com/*",
+    "https://www.federalreserve.gov/*",
+    "https://www.ecb.europa.eu/*",
+    "https://www.bankofengland.co.uk/*",
+    "https://apps.bea.gov/*",
+    "https://www.thedailystar.net/*",
+    "https://www.tbsnews.net/*",
+    "https://www.dhakatribune.com/*",
+    "https://en.prothomalo.com/*"
+  ],
+  "optional_host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ]
+}
