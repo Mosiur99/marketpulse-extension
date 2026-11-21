@@ -3,7 +3,7 @@ import { FeedParseError, parseFeed } from '../core/feed-parser.js';
 import { normalizeItems } from '../core/normalizer.js';
 
 export const FETCH_DEFAULTS = Object.freeze({
-  timeoutMs: 10_000,
+  timeoutMs: 15_000,
   maxBytes: 2 * 1024 * 1024,
   concurrency: 4,
 });
@@ -88,8 +88,12 @@ export function createFeedFetcher({ fetch = globalThis.fetch, now = Date.now, ..
     }
   }
 
-  function fetchFeeds(feeds, states = {}) {
-    return mapWithConcurrency(feeds, concurrency, async (feed) => ({ feed, result: await fetchFeed(feed, states[feed.id]) }));
+  function fetchFeeds(feeds, states = {}, onEach = () => {}) {
+    return mapWithConcurrency(feeds, concurrency, async (feed) => {
+      const result = await fetchFeed(feed, states[feed.id]);
+      onEach(feed, result);
+      return { feed, result };
+    });
   }
 
   /** Used by the Test button: a fresh download, ignoring the saved ETag. */

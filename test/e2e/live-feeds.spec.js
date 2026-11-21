@@ -1,4 +1,4 @@
-import { expect, test } from './fixtures.js';
+import { expect, readStorage, sendMessage, test } from './fixtures.js';
 
 // These sites refuse automated (headless) browsers with 403; a normal Chrome profile can read them.
 const BLOCKS_HEADLESS = new Set(['fxstreet', 'boe']);
@@ -9,8 +9,9 @@ test.describe('@live real feeds in Chrome', () => {
     const results = await page.evaluate(async () => {
       const { DEFAULT_FEEDS } = await import('/src/config/feeds.js');
       const { createFeedFetcher } = await import('/src/services/feed-fetcher.js');
+      const { mapWithConcurrency } = await import('/src/core/concurrency.js');
       const fetcher = createFeedFetcher();
-      return Promise.all(DEFAULT_FEEDS.map(async (feed) => ({ id: feed.id, ...(await fetcher.testFeed(feed)) })));
+      return mapWithConcurrency(DEFAULT_FEEDS, 4, async (feed) => ({ id: feed.id, ...(await fetcher.testFeed(feed)) }));
     });
     for (const result of results) {
       console.log(`${result.ok ? 'ok  ' : 'FAIL'} ${result.id.padEnd(22)} ${String(result.httpStatus).padEnd(4)} ${String(result.itemCount ?? '').padStart(3)} items ${String(result.durationMs).padStart(5)} ms  ${result.error ?? result.sampleTitle}`);
@@ -41,5 +42,15 @@ test.describe('@live real feeds in Chrome', () => {
       return [first.httpStatus, Boolean(first.etag), second.httpStatus];
     });
     expect(statuses).toEqual([200, true, 304]);
+  });
+
+  test('a full refresh against the real feeds stores classified articles', async ({ serviceWorker, extensionPage }) => {
+    const response = await sendMessage(extensionPage, { type: 'refresh' });
+    console.log(JSON.stringify(response.summary));
+    expect(response.ok).toBe(true);
+    const articles = await readStorage(serviceWorker, 'articles');
+    const count = (key) => articles.reduce((map, article) => ({ ...map, [article[key]]: (map[article[key]] ?? 0) + 1 }), {});
+    console.log('priority', JSON.stringify(count('priority')), 'category', JSON.stringify(count('category')));
+    expect(articles.length).toBeGreaterThan(100);
   });
 });
