@@ -161,3 +161,17 @@ test.describe('settings', () => {
     await expect(page.locator('#feed-error')).toHaveText('Enter a full http:// or https:// feed address.');
   });
 });
+
+test('pages load without console errors', async ({ feeds, extensionPage, context, extensionUrl }) => {
+  await seed(feeds, extensionPage);
+  for (const path of ['src/ui/dashboard/dashboard.html', 'src/ui/popup/popup.html', 'src/ui/options/options.html']) {
+    const page = await context.newPage();
+    const errors = [];
+    page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
+    page.on('pageerror', (error) => errors.push(error.message));
+    await page.goto(extensionUrl(path));
+    await page.waitForLoadState('networkidle');
+    expect(errors, path).toEqual([]);
+    await page.close();
+  }
+});

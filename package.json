@@ -1,6 +1,6 @@
 {
   "name": "marketpulse-extension",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Chrome extension: free financial market news from RSS feeds with importance scoring and desktop alerts.",
   "type": "module",
