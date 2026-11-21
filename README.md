@@ -18,6 +18,7 @@ No server, no paid APIs, no build step: plain JavaScript modules.
 npm install
 npm test            # unit tests (node:test)
 npm run test:e2e    # loads the unpacked extension in Chromium with Playwright
+npm run test:live   # downloads every default feed in Chromium (needs internet)
 ```
 
 ## Project layout
