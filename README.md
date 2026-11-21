@@ -80,7 +80,7 @@ Rate decisions, CPI, payrolls and GDP weigh the most. Institution names ("Federa
 | Kitco | No RSS feed | Investing.com Commodities, FXStreet |
 | MarketWatch MarketPulse | Feed is stale (newest item from 2025) | MarketWatch Top Stories |
 
-FXStreet and the Bank of England refuse *headless* automated browsers, so they fail in the live test run but work in a normal Chrome profile. Investing.com sends dates without a time zone; MarketPulse reads them as UTC (verified against the live feed). RSS only carries the headline and a short summary; the full article opens on the publisher's site, and paywalls are not bypassed.
+FXStreet and the Bank of England refuse *headless* automated browsers, so they return 403 in a plain live test run; in a visible browser (`npm run test:live -- --headed`) and in normal Chrome they work. Investing.com sends dates without a time zone; MarketPulse reads them as UTC (verified against the live feed). RSS only carries the headline and a short summary; the full article opens on the publisher's site, and paywalls are not bypassed.
 
 ### Permissions
 
@@ -106,7 +106,7 @@ FXStreet and the Bank of England refuse *headless* automated browsers, so they f
 npm install
 npm test            # 289 unit tests (node:test, no other packages)
 npm run test:e2e    # 20 Playwright tests that load the unpacked extension in Chromium
-npm run test:live   # downloads every real default feed in Chromium (needs internet)
+npm run test:live   # downloads every real default feed in Chromium (needs internet); add -- --headed for all 24
 ```
 
 Unit tests cover the XML reader, parser (with saved copies of every default feed), normalizer, dates, URLs, fetcher (timeouts, 304, size limit, charsets, backoff), classifier (20 real headlines), deduper (real duplicate and near-miss pairs), retention, notification rules, notification clicks, the refresh pipeline, settings validation, storage, backup and view filters. End-to-end tests serve generated feeds through Playwright routing, so they never depend on the real sites.
