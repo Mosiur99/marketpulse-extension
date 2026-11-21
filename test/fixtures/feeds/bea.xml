@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<rss version="2.0">
+  <channel>
+    <title>U.S. Bureau of Economic Analysis</title>
+    <link>https://www.bea.gov</link>
+    <description>U.S. Bureau of Economic Analysis</description>
+    <pubDate>Fri, 20 Nov 2026 08:30:00 EST</pubDate>
+    <lastBuildDate>Fri, 20 Nov 2026 08:30:00 EST</lastBuildDate>
+    <image>
+      <url>https://www.bea.gov/favicon.ico</url>
+      <title>BEA - Bureau of Economic Analysis</title>
+      <link>https://www.bea.gov</link>
+      <width>88</width>
+      <height>31</height>
+    </image>
+    <language>en-us</language>
+    <ttl>17</ttl>
+    <item name="Activities of U.S. Multinational Enterprises">
+      <dbId>
+      </dbId>
+      <title>Activities of U.S. Multinational Enterprises, 2024</title>
+      <link>https://www.bea.gov/news/2026/activities-us-multinational-enterprises-2024</link>
+      <guid isPermaLink="true">https://www.bea.gov/news/2026/activities-us-multinational-enterprises-2024</guid>
+      <description><![CDATA[Worldwide employment by U.S. multinational enterprises increased 0.9 percent to 44.2 million workers in 2024 (preliminary) from 43.8 million workers in 2023 (revised), according to statistics released today by the U.S. Bureau of Economic Analysis on the operations and finances of U.S. parent companies and their majority-owned foreign affiliates.]]></description>
+      <data>
+        <main>
+          <current>
+            <infoDate>2024</infoDate>
+            <percentChange>
+            </percentChange>
+            <rateChange>
+            </rateChange>
+          </current>
+          <previous>
+            <infoDate>2023</infoDate>
+            <percentChange>
+            </percentChange>
+          </previous>
+        </main>
+      </data>
+      <NextReleaseDate>4/30/2027</NextReleaseDate>
+      <unitsOfMeasure>BLN$</unitsOfMeasure>
+      <changeUnit>PCT</changeUnit>
+      <linkHistoric>https://apps.bea.gov/histdata/</linkHistoric>
+      <linkArchive>https://www.bea.gov/news/archive</linkArchive>
+      <pdf>https://www.bea.gov/sites/default/files/2026-11/usmne1126.pdf</pdf>
+      <pubDate>Fri, 20 Nov 2026 08:30:00 EST</pubDate>
+    </item>
+    <item name="Outdoor Recreation Economic Statistics">
+      <dbId>
+      </dbId>
+      <title>Outdoor Recreation Economic Statistics, U.S. and States, 2025</title>
+      <link>https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025</link>
+      <guid isPermaLink="true">https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025</guid>
+      <description><![CDATA[The value added of the outdoor recreation economy accounted for 2.3 percent ($704.2 billion) of current-dollar gross domestic product (GDP) for the nation in 2025. Across states and the District of Columbia, value added for outdoor recreation as a share of state GDP ranged from 6.1 percent in Hawaii to 1.0 percent in the District of Columbia.]]></description>
+      <data>
+        <main>
+          <current>
+            <infoDate>U.S. and States, 2025</infoDate>
+            <percentChange>
+            </percentChange>
+            <rateChange>
+            </rateChange>
+          </current>
+          <previous>
+            <infoDate>2024</infoDate>
+            <percentChange>
+            </percentChange>
+          </previous>
+        </main>
+      </data>
+      <NextReleaseDate>Fall 2027</NextReleaseDate>
+      <unitsOfMeasure>BLN$</unitsOfMeasure>
+      <changeUnit>PCT</changeUnit>
+      <linkHistoric>https://apps.bea.gov/histdata/</linkHistoric>
+      <linkArchive>https://www.bea.gov/news/archive</linkArchive>
+      <pdf>https://cms.bea.gov/system/files/2026-11/ores1126.pdf</pdf>
+      <pubDate>Wed, 18 Nov 2026 10:00:00 EST</pubDate>
+    </item>
+    <item name="U.S. International Trade in Goods and Services">
+      <dbId>102</dbId>
+      <title>U.S. International Trade in Goods and Services, September 2026</title>
+      <link>https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026</link>
+      <guid isPermaLink="true">https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026</guid>
+      <description><![CDATA[<p>The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.</p>]]></description>
+      <data>
+        <main>
+          <current>
+            <infoDate>September 2026</infoDate>
+            <percentChange>-$105.0 billion</percentChange>
+            <rateChange>
+            </rateChange>
+          </current>
+          <previous>
+            <infoDate>August 2026</infoDate>
+            <percentChange>-$105.7 billion</percentChange>
+          </previous>
+        </main>
+      </data>
+      <NextReleaseDate>December 8, 2026</NextReleaseDate>
+      <unitsOfMeasure>BLN$</unitsOfMeasure>
+      <changeUnit>PCT</changeUnit>
+      <linkHistoric>https://apps.bea.gov/histdata/</linkHistoric>
+      <linkArchive>https://www.bea.gov/news/archive</linkArchive>
+      <pdf>https://www.bea.gov/sites/default/files/2026-11/trad0926.pdf</pdf>
+      <pubDate>Wed, 04 Nov 2026 08:30:00 EST</pubDate>
+    </item>
+</channel>
+</rss>

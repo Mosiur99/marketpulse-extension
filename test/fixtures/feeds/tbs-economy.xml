@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?> <rss version="2.0" xml:base="https://www.tbsnews.net/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"> <channel> <title>The Business Standard</title>
+ <description>Headlines from The Business Standard</description>
+ <link>https://www.tbsnews.net/</link>
+ <atom:link rel="self" href="https://www.tbsnews.net/economy/rss.xml" />
+ <language>en</language>
+ <pubDate>Sat, 21 Nov 2026 11:00:00 +0600</pubDate>
+ <lastBuildDate>Sat, 21 Nov 2026 13:09:46 +0600</lastBuildDate>
+ <item> <title>Financial deepening without discipline</title>
+ <link>https://www.tbsnews.net/economy/financial-deepening-without-discipline-1609181</link>
+ <description>Bangladesh’s banks, bourses, and insurers turned into instruments of private extraction rather than engines of economic welfare. </description>
+ <guid isPermaLink="false">https://www.tbsnews.net/economy/financial-deepening-without-discipline-1609181</guid>
+ <pubDate>Sat, 21 Nov 2026 11:00 +0600</pubDate>
+ <source url="https://www.tbsnews.net/economy/rss.xml">The Business Standard</source>
+ <media:content url="https://www.tbsnews.net/sites/default/files/styles/big_1/public/images/2026/11/21/zahid_hossain_write_up_copy.jpg" fileSize="75730" type="image/jpeg" medium="image" width="545" height="307" />
+ <media:thumbnail url="https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/11/21/zahid_hossain_write_up_copy.jpg" width="220" height="188" />
+</item>
+ <item> <title>Labour unrest: At least 50 factories closed amid work abstentions in Savar</title>
+ <link>https://www.tbsnews.net/economy/rmg/labour-unrest-least-12-factories-declare-holiday-amid-work-abstention-savar-1609261</link>
+ <description>Many units declare general holidays today following work abstentions, adding to factories already shut under the Labour Act; industrial belt remains calm with no untoward incidents reported</description>
+ <guid isPermaLink="false">https://www.tbsnews.net/economy/rmg/labour-unrest-least-12-factories-declare-holiday-amid-work-abstention-savar-1609261</guid>
+ <pubDate>Sat, 21 Nov 2026 10:45 +0600</pubDate>
+ <source url="https://www.tbsnews.net/economy/rss.xml">The Business Standard</source>
+ <media:content url="https://www.tbsnews.net/sites/default/files/styles/big_1/public/images/2026/11/21/918163123_979948231420534_868858769359092164_n.jpg" fileSize="101204" type="image/jpeg" medium="image" width="546" height="307" />
+ <media:thumbnail url="https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/11/21/918163123_979948231420534_868858769359092164_n.jpg" width="220" height="124" />
+</item>
+ <item> <title>Bangladesh crosses 300 LEED-certified green factory milestone</title>
+ <link>https://www.tbsnews.net/economy/rmg/bangladesh-crosses-300-leed-certified-green-factory-milestone-1608756</link>
+ <description>The latest additions have taken the country&#039;s total number of LEED-certified green factories to 302, the highest globally.</description>
+ <guid isPermaLink="false">https://www.tbsnews.net/economy/rmg/bangladesh-crosses-300-leed-certified-green-factory-milestone-1608756</guid>
+ <pubDate>Fri, 20 Nov 2026 15:55 +0600</pubDate>
+ <source url="https://www.tbsnews.net/economy/rss.xml">The Business Standard</source>
+ <media:content url="https://www.tbsnews.net/sites/default/files/styles/big_1/public/images/2026/11/16/rmg_rajib-dhar.png" fileSize="378385" type="image/png" medium="image" width="546" height="307" />
+ <media:thumbnail url="https://www.tbsnews.net/sites/default/files/styles/medium/public/images/2026/11/16/rmg_rajib-dhar.png" width="220" height="124" />
+</item>
+</channel>
+</rss>

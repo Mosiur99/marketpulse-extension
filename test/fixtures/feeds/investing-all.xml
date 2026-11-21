@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>All News</title>
+    <link>https://www.investing.com</link>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/PresidentLeeJaeMyung_800x533_L_1792052353jpg_800x533_L_1792052444.jpg" length="39371" type="image/jpeg"/>
+      <title>South Korea’s Lee urges faster AI investment during $5.2bn data center visit</title>
+      <pubDate>2026-11-21 07:38:34</pubDate>
+      <author>Investing.com</author>
+      <link>https://www.investing.com/news/stock-market-news/south-koreas-lee-urges-faster-ai-investment-during-52bn-data-center-visit-5043267</link>
+    </item>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/moved_LYNXMPEM3Q0WG_1200_L.jpg" length="135320" type="image/jpeg"/>
+      <title>Rigetti Computing CFO Jeffrey Bertelsen sells $30,996 in stock</title>
+      <pubDate>2026-11-21 07:31:18</pubDate>
+      <author>Investing.com</author>
+      <link>https://www.investing.com/news/insider-trading-news/rigetti-computing-cfo-jeffrey-bertelsen-sells-30996-in-stock-93CH-5043265</link>
+    </item>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/moved_LYNXMPEM450ND_1200_L.jpg" length="178658" type="image/jpeg"/>
+      <title>Rigetti CTO Andrew Bestwick sells $219,551 in shares</title>
+      <pubDate>2026-11-21 07:01:11</pubDate>
+      <author>Investing.com</author>
+      <link>https://www.investing.com/news/insider-trading-news/rigetti-cto-andrew-bestwick-sells-219551-in-shares-93CH-5043253</link>
+    </item>
+</channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/15839135/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Earnings</title>
+    <feed_asset>
+      <id>15839135</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/earnings/</seo>
+    </feed_asset>
+    <lastBuildDate>Fri, 20 Nov 2026 11:20 GMT</lastBuildDate>
+    <pubDate>Fri, 20 Nov 2026 11:20 GMT</pubDate>
+    <link>https://www.cnbc.com/earnings/</link>
+    <description><![CDATA[Corporate Company Earnings, Find Earnings Per Share and Earnings History Online]]></description>
+    <item>
+      <link>https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html</link>
+      <guid isPermaLink="false">108555249</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108555249</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Gap names new Athleta CEO, says Old Navy turnaround is seeing signs of progress</title>
+      <description><![CDATA[Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.]]></description>
+      <pubDate>Fri, 20 Nov 2026 21:04:48 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html</link>
+      <guid isPermaLink="false">108555199</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108555199</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Palo Alto stock jumps on earnings beat and company&apos;s big bet on securing open-weight models</title>
+      <description><![CDATA[Palo Alto Networks reported better-than-expected first-quarter results and inked a $4.5 billion deal for AI startup Applied Compute]]></description>
+      <pubDate>Thu, 19 Nov 2026 21:00:57 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html</link>
+      <guid isPermaLink="false">108554267</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108554267</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs</title>
+      <description><![CDATA[Walmart said it saw strength with store-fulfilled pickup and delivery in its fiscal third quarter.]]></description>
+      <pubDate>Thu, 19 Nov 2026 19:58:30 GMT</pubDate>
+    </item>
+</channel>
+</rss>

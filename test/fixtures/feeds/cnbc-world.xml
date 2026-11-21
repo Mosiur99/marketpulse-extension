@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/100727362/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>International: Top News And Analysis</title>
+    <feed_asset>
+      <id>100727362</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/world-top-news/</seo>
+    </feed_asset>
+    <lastBuildDate>Sat, 21 Nov 2026 07:09 GMT</lastBuildDate>
+    <pubDate>Sat, 21 Nov 2026 07:09 GMT</pubDate>
+    <link>https://www.cnbc.com/world-top-news/</link>
+    <description><![CDATA[CNBC International is the world leader for news on business, technology, China, trade, oil prices, the Middle East and markets.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html</link>
+      <guid isPermaLink="false">108556651</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108556651</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Trump vows to stop U.S. companies from building data centers abroad, threatens &apos;tremendous tax&apos;</title>
+      <description><![CDATA[Trump spoke at the White House after meeting with Chinese President Xi Jinping and Russian President Vladimir Putin for a historic trilateral summit in China.]]></description>
+      <pubDate>Fri, 20 Nov 2026 20:47:58 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html</link>
+      <guid isPermaLink="false">108554745</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108554745</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How China is using summits to expand its global influence</title>
+      <description><![CDATA[Chinese President Xi Jinping has helped coordinate yet another photo-op of global significance.]]></description>
+      <pubDate>Sat, 21 Nov 2026 06:00:02 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/21/cyber-attacks-fridges-cybersecurity.html</link>
+      <guid isPermaLink="false">108554292</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108554292</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Europe&apos;s cyber weak spot is the everyday businesses nobody thought to protect</title>
+      <description><![CDATA[Known vulnerabilities are leaving everyday businesses increasingly exposed to cyber sabotage, as AI enables cybercriminals to work better and faster.]]></description>
+      <pubDate>Sat, 21 Nov 2026 06:00:02 GMT</pubDate>
+    </item>
+</channel>
+</rss>

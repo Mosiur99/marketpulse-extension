@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/100003114/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>US Top News and Analysis</title>
+    <feed_asset>
+      <id>100003114</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/us-top-news-and-analysis/</seo>
+    </feed_asset>
+    <lastBuildDate>Sat, 21 Nov 2026 07:09 GMT</lastBuildDate>
+    <pubDate>Sat, 21 Nov 2026 07:09 GMT</pubDate>
+    <link>https://www.cnbc.com/us-top-news-and-analysis/</link>
+    <description><![CDATA[CNBC is the world leader in business news and real-time financial market coverage. Find fast, actionable information.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html</link>
+      <guid isPermaLink="false">108556573</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108556573</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis</title>
+      <description><![CDATA[Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.]]></description>
+      <pubDate>Fri, 20 Nov 2026 22:59:33 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html</link>
+      <guid isPermaLink="false">108554745</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108554745</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How China is using summits to expand its global influence</title>
+      <description><![CDATA[Chinese President Xi Jinping has helped coordinate yet another photo-op of global significance.]]></description>
+      <pubDate>Sat, 21 Nov 2026 06:00:02 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html</link>
+      <guid isPermaLink="false">108553974</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108553974</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>An early breakdown in the polar vortex is threatening already depleted gas stocks</title>
+      <description><![CDATA[Colder weather and low wind speeds could strain Europe’s gas market, where storage started winter at its lowest level in more than a decade.]]></description>
+      <pubDate>Sat, 21 Nov 2026 06:00:02 GMT</pubDate>
+    </item>
+</channel>
+</rss>

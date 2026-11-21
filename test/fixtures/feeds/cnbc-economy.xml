@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/20910258/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Economy</title>
+    <feed_asset>
+      <id>20910258</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/economy/</seo>
+    </feed_asset>
+    <lastBuildDate>Fri, 20 Nov 2026 00:51 GMT</lastBuildDate>
+    <pubDate>Fri, 20 Nov 2026 00:51 GMT</pubDate>
+    <link>https://www.cnbc.com/economy/</link>
+    <description><![CDATA[Find the latest economic news, current events and headlines, as well as blogs and video from CNBC.com.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html</link>
+      <guid isPermaLink="false">108554958</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108554958</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices</title>
+      <description><![CDATA[The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.]]></description>
+      <pubDate>Fri, 20 Nov 2026 01:49:03 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html</link>
+      <guid isPermaLink="false">108553213</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108553213</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Southeast Asia’s data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk</title>
+      <description><![CDATA[The rules require data centers in Southeast Asia to seek U.S. approval to buy advanced AI chips, threatening to slow a build-out fueled heavily on Chinese demand.]]></description>
+      <pubDate>Wed, 18 Nov 2026 14:09:26 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html</link>
+      <guid isPermaLink="false">108553861</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108553861</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Record diesel prices drive UK inflation to 1-year high of 3.6%</title>
+      <description><![CDATA[It put the U.K.'s annual inflation rate at a 1-year high.]]></description>
+      <pubDate>Wed, 18 Nov 2026 07:57:37 GMT</pubDate>
+    </item>
+</channel>
+</rss>

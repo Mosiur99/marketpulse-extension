@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>FXStreet Forex &amp; Commodities News</title>
+        <link>https://www.fxstreet.com/news/feed</link>
+        <description>Real-time Forex News and the latest trading updates. Stay updated on the latest news about currencies and commodities markets.</description>
+        <lastBuildDate>Sat, 21 Nov 2026 07:47:14 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <atom:link href="https://www.fxstreet.com/rss/news" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[The Euro takes a priced-in hike into a week that belongs to American inflation]]></title>
+            <link>https://www.fxstreet.com/news/the-euro-takes-a-priced-in-hike-into-a-week-that-belongs-to-american-inflation-202611202158</link>
+            <guid isPermaLink="false">28e10939-f6c2-40b3-a973-460de9fc44f2</guid>
+            <pubDate>Fri, 20 Nov 2026 21:58:41 GMT</pubDate>
+            <description><![CDATA[1.1000 has turned EUR/USD back in each of the past three sessions, and it did so in a week when most of the news leaned the Euro's way. Eurozone core inflation was revised higher, the ZEW sentiment survey beat its forecast, and the US factory numbers missed.]]></description>
+            <enclosure url="https://editorial.fxsstatic.com/images/i/eur-usd-fix-02.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The British Pound goes into PMI week paying for softer inflation and slower pay]]></title>
+            <link>https://www.fxstreet.com/news/the-british-pound-goes-into-pmi-week-paying-for-softer-inflation-and-slower-pay-202611202157</link>
+            <guid isPermaLink="false">75e853c1-f3d1-45ab-8fd5-8d84026cbd23</guid>
+            <pubDate>Fri, 20 Nov 2026 21:57:19 GMT</pubDate>
+            <description><![CDATA[UK inflation and pay growth both came in under forecast, which is good news for British households and was the reason the Pound fell.]]></description>
+            <enclosure url="https://editorial.fxsstatic.com/images/i/gbp-usd-002.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Dow Jones Industrial Average drops for a fifth day as AI rout widens]]></title>
+            <link>https://www.fxstreet.com/news/dow-jones-industrial-average-drops-for-a-fifth-day-as-ai-rout-widens-202611202113</link>
+            <guid isPermaLink="false">ff51a8d1-926e-492d-8509-98c147c9c044</guid>
+            <pubDate>Fri, 20 Nov 2026 21:13:33 GMT</pubDate>
+            <description><![CDATA[Five falls in five sessions have taken the Dow Jones Industrial Average more than 10% below its August record close, and the selling is no longer confined to artificial intelligence (AI) stocks. The index dropped to just under 48,000, its lowest since April, and is trading near 48,100.]]></description>
+            <enclosure url="https://editorial.fxsstatic.com/images/i/Economic-Indicator_Recession-5.png" length="0" type="image/png"/>
+        </item>
+</channel>
+</rss>

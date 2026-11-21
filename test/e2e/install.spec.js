@@ -9,7 +9,7 @@ test('seeds storage with defaults on install', async ({ serviceWorker }) => {
       feeds: stored.feeds?.length,
       articles: stored.articles?.length,
     };
-  })).toEqual({ schemaVersion: 1, refreshMinutes: 15, feeds: 25, articles: 0 });
+  })).toEqual({ schemaVersion: 1, refreshMinutes: 15, feeds: 24, articles: 0 });
 });
 
 test('popup opens the dashboard', async ({ context, page, extensionUrl }) => {

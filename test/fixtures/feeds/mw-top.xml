@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"
+>
+<channel>
+<title>MarketWatch.com - Top Stories</title>
+<description>MarketWatch, a leading publisher of business and financial news, offers users up-to-the minute news, investment tools, and subscription products.</description>
+<link>http://www.marketwatch.com/</link>
+<language>en-us</language>
+<copyright>Copyright &#169; Dow Jones &amp; Company, Inc. All rights reserved.</copyright>
+<lastBuildDate>Sat, 21 Nov 2026 07:53:54 GMT</lastBuildDate>
+<ttl>60</ttl>
+<image>
+<title>MarketWatch.com - Top Stories</title>
+<url>https://www.marketwatch.com/rss/marketwatch.gif</url>
+<link>http://www.marketwatch.com/</link>
+</image>
+<item>
+<guid isPermaLink="false">WP-MKTW-0005358330</guid>
+<title>Tech outages are rattling Americans so much that they&#x2019;re stockpiling cash and supplies</title>
+<description>A lack of clarity from world leaders is prompting some people to prepare for the worst.</description>
+<link>https://www.marketwatch.com/story/why-are-these-tech-outages-rattling-americans-so-much-that-theyre-stockpiling-cash-and-supplies-07516bdd?mod=mw_rss_topstories</link>
+<pubDate>Sat, 21 Nov 2026 03:20:00 GMT</pubDate>
+<dc:creator>Genna Contino</dc:creator>
+<dc:creator>Andrew Keshner</dc:creator>
+<media:content url="https://images.mktw.net/im-46571930" medium="image" type="image/jpeg">
+<media:credit>Getty Images</media:credit>
+</media:content>
+</item>
+<item>
+<guid isPermaLink="false">WP-MKTW-0005362681</guid>
+<title>Dow, S&amp;P 500 enter correction as Nasdaq suffers worst week since 2020</title>
+<description>All 11 S&amp;P 500 sectors finished more than 1% lower this week for the first time since April 2025.</description>
+<link>https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories</link>
+<pubDate>Fri, 20 Nov 2026 22:46:00 GMT</pubDate>
+<dc:creator>Joseph Adinolfi</dc:creator>
+<media:content url="https://images.mktw.net/im-22825043" medium="image" type="image/jpeg">
+<media:credit>Getty Images</media:credit>
+</media:content>
+</item>
+<item>
+<guid isPermaLink="false">WP-MKTW-0005362875</guid>
+<title>Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade</title>
+<description>A major semiconductor index just posted its worst weekly performance in 25 years.</description>
+<link>https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories</link>
+<pubDate>Fri, 20 Nov 2026 22:44:00 GMT</pubDate>
+<dc:creator>William Gavin</dc:creator>
+<media:content url="https://images.mktw.net/im-69966637" medium="image" type="image/jpeg">
+<media:credit>Getty Images/iStockphoto</media:credit>
+</media:content>
+</item>
+</channel>
+</rss>

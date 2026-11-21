@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+			>
+  <channel>
+    <title>Oilprice.com</title>
+    <link>https://oilprice.com/rss/main</link>
+    <description>The latest news and headlines</description>
+    <pubDate>Sat, 21 Nov 2026 01:55:13 -0600</pubDate>
+    <atom:link href="https://oilprice.com/rss/main" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oil Prices Caught Between a Looming Glut and Middle East Turmoil</title>
+      <link>https://oilprice.com/Energy/Energy-General/Oil-Prices-Caught-Between-a-Looming-Glut-and-Middle-East-Turmoil.html</link>
+      <guid isPermaLink="false">oilprice-article-46129</guid>
+      <description>Oil prices have traded in a narrow range over the past few sessions as forecasts of a coming surplus collide with continued attacks and stalled diplomacy in the Middle East. A run of agency reports this month has pushed expectations toward oversupply and weighed on crude. Brent crude was up 0.22% at $92.18 per barrel in early trade on Friday, well below its October levels above $110 but little changed from the start of the week, while WTI crude had gained 0.35% to $82.73 per barrel. The International Energy Agency (IEA) said in its November Oil…</description>
+      <pubDate>Fri, 20 Nov 2026 18:00:00 -0600</pubDate>
+      <lastmod>Sat, 21 Nov 2026 01:55:13 -0600</lastmod>
+      <dc:creator>Alex Kimani</dc:creator>
+    </item>
+    <item>
+      <title>Argentine Energy Firms Rush to Sell Bonds Before the 2027 Election</title>
+      <link>https://oilprice.com/Energy/Energy-General/Argentine-Energy-Firms-Rush-to-Sell-Bonds-Before-the-2027-Election.html</link>
+      <guid isPermaLink="false">oilprice-article-46130</guid>
+      <description>Argentina’s energy sector is having a banner year. The first half of 2026 saw the South American nation’s best energy trade balance in half a decade as exports boomed thanks to a drop in exports out of the Middle East and strong production numbers out of the Vaca Muerta shale play. And Argentina’s energy export boom isn’t over. This week, major underwriter Banco Santander announced that a wave of dollar bond sales out of Argentina is projected to extend into the first half of 2027 as the nation’s energy sector continues…</description>
+      <pubDate>Fri, 20 Nov 2026 16:00:00 -0600</pubDate>
+      <lastmod>Sat, 21 Nov 2026 01:55:13 -0600</lastmod>
+      <dc:creator>Haley Zaremba</dc:creator>
+    </item>
+    <item>
+      <title>US Data Center Boom Faces a New Political Reality</title>
+      <link>https://oilprice.com/Energy/Energy-General/US-Data-Center-Boom-Faces-a-New-Political-Reality.html</link>
+      <guid isPermaLink="false">oilprice-article-46120</guid>
+      <description>Starting in January, Democratic governors will lead US states that together hold 77% of the 300 gigawatts (GW) of data center capacity announced for 2027-2030, including the five largest markets: Texas, Virginia, Pennsylvania, Ohio and Georgia. Most of the winning candidates campaigned on making data centers pay their grid costs, rather than on stopping them, so the midterms are likely to change the terms of growth more than its pace. Our risked forecast expects 121 GW to be added in 2027-2030, including about 49 GW of the 191 GW planned for 2029-30.…</description>
+      <pubDate>Fri, 20 Nov 2026 13:00:00 -0600</pubDate>
+      <lastmod>Sat, 21 Nov 2026 01:55:13 -0600</lastmod>
+      <dc:creator>OilPrice.com</dc:creator>
+    </item>
+</channel>
+</rss>

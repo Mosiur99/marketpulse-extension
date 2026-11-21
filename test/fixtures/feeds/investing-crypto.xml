@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Cryptocurrency News</title>
+    <link>https://www.investing.com</link>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/LYNXMPED9A0RJ-ORUBS_M.jpg" length="36524" type="image/jpeg"/>
+      <title>Bitcoin Falls 10% In Rout</title>
+      <pubDate>2026-11-21 06:02:03</pubDate>
+      <author>Investing.com</author>
+      <link>https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-10-in-rout-5043212</link>
+    </item>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/Cardano_800x533_L_1556444760.jpg" length="95701" type="image/jpeg"/>
+      <title>Cardano Falls 10% In Bearish Trade</title>
+      <pubDate>2026-11-21 05:57:57</pubDate>
+      <author>Investing.com</author>
+      <link>https://www.investing.com/news/cryptocurrency-news/cardano-falls-10-in-bearish-trade-5043202</link>
+    </item>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/LYNXMPED990HX_M.jpg" length="21470" type="image/jpeg"/>
+      <title>Bitcoin crashes below $56,000 as liquidity squeeze deepens crypto selloff</title>
+      <pubDate>2026-11-21 05:46:26</pubDate>
+      <author>Investing.com</author>
+      <link>https://www.investing.com/news/cryptocurrency-news/bitcoin-crashes-below-56000-as-liquidity-squeeze-deepens-crypto-selloff-5043199</link>
+    </item>
+</channel>
+</rss>

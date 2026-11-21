@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data</title>
+    <link>https://www.coindesk.com/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.coindesk.com/arc/outboundfeeds/rss"/>
+    <atom:link rel="hub" href="true"/>
+    <description>Leader in cryptocurrency, Bitcoin, Ethereum, XRP, blockchain, DeFi, digital finance and Web 3.0 news with analysis, video and live price updates.</description>
+    <lastBuildDate>Sat, 21 Nov 2026 07:48:35 +0000</lastBuildDate>
+    <language>en-US</language>
+    <copyright>© 2026 CoinDesk, Inc.</copyright>
+    <generator>CoinDesk</generator>
+    <ttl>5</ttl>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <image>
+      <url>https://downloads.coindesk.com/arc/failsafe/feeds/coindesk-feed-logo.png</url>
+      <title>CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data</title>
+      <link>https://www.coindesk.com/</link>
+    </image>
+    <item>
+      <title><![CDATA[Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug]]></title>
+      <link>https://www.coindesk.com/markets/2026/11/21/bitcoin-nodes-could-be-stalled-by-repeating-one-id-50-000-times-ai-found-the-bug</link>
+      <media:content url="https://cdn.sanity.io/images/s3y3vcno/production/0fd512cd2b3b63152562fab784b9d94b8b8b56ea-1500x994.jpg?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip" type="image/*" medium="image"/>
+      <guid isPermaLink="false">4b09c42f-9fe4-45d7-a736-d5d55bb044e8</guid>
+      <pubDate>Sat, 21 Nov 2026 06:16:42 +0000</pubDate>
+      <description><![CDATA[Bitcoin Core shipped fixes on Friday for a bug flagged by Loupe, an open-source scanner from Block’s Spiral that uses AI agents to examine bitcoin code.]]></description>
+      <dc:creator>Shaurya Malwa</dc:creator>
+      <content:encoded/>
+      <dc:description/>
+      <category domain="https://www.coindesk.com/markets"><![CDATA[Markets]]></category>
+      <category domain="https://www.coindesk.com/">News</category>
+    </item>
+    <item>
+      <title><![CDATA[XRP falls 10% as long bets unwind and ETF assets slip below $1 billion]]></title>
+      <link>https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion</link>
+      <media:content url="https://cdn.sanity.io/images/s3y3vcno/production/e801fab0ba43b1fac7d53b2dde06f85232d5e766-1506x830.png?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip" type="image/*" medium="image"/>
+      <guid isPermaLink="false">eaa12fd1-036a-4e72-9666-d139d92f8a0a</guid>
+      <pubDate>Sat, 21 Nov 2026 05:59:19 +0000</pubDate>
+      <description><![CDATA[The token broke its previous November lows during Saturday's crypto selloff, with long positions accounting for most XRP liquidations and technical indicators showing further weakness.]]></description>
+      <dc:creator>Shaurya Malwa</dc:creator>
+      <content:encoded/>
+      <dc:description/>
+      <category domain="https://www.coindesk.com/markets"><![CDATA[Markets]]></category>
+      <category domain="https://www.coindesk.com/">News</category>
+    </item>
+    <item>
+      <title><![CDATA[Bitcoin tanks below $57,000 for the first time in two years, and its not alone]]></title>
+      <link>https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone</link>
+      <media:content url="https://cdn.sanity.io/images/s3y3vcno/production/c4a0fdccd8d94e89522ad3903cb55ceb60c5e3d6-2158x1102.png?fm=jpg&amp;w=800&amp;h=450&amp;crop=focalpoint&amp;fit=clip" type="image/*" medium="image"/>
+      <guid isPermaLink="false">802234c3-db5d-4390-80ea-49b053007c38</guid>
+      <pubDate>Sat, 21 Nov 2026 04:10:07 +0000</pubDate>
+      <description><![CDATA[BTC's sell-off deepened on Saturday, with prices hitting two-year lows under $57,000.]]></description>
+      <dc:creator>Omkar Godbole</dc:creator>
+      <content:encoded/>
+      <dc:description/>
+      <category domain="https://www.coindesk.com/markets"><![CDATA[Markets]]></category>
+      <category domain="tag"><![CDATA[Bitcoin News]]></category>
+      <category domain="https://www.coindesk.com/">News</category>
+    </item>
+</channel>
+</rss>

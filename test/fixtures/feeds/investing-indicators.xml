@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Economic Indicators News</title>
+    <link>https://www.investing.com</link>
+    <item>
+      <enclosure url="https://content-media.investing.com/trkd-images/LYNXNPEMAJ1MV_L.jpg" length="44792" type="image/jpeg"/>
+      <title>France, Germany to take key ECB roles, with Spain set for presidency</title>
+      <pubDate>2026-11-21 02:12:41</pubDate>
+      <author>Reuters</author>
+      <link>https://www.investing.com/news/economic-indicators/france-germany-to-take-key-ecb-roles-with-spain-set-for-presidency-5042345</link>
+    </item>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/LYNXMPECBE0OL_M.jpg" length="16958" type="image/jpeg"/>
+      <title>Consumer sentiment rises as Michigan index surpasses expectations</title>
+      <pubDate>2026-11-20 15:00:08</pubDate>
+      <author>Investing.com</author>
+      <link>https://www.investing.com/news/economic-indicators/consumer-sentiment-rises-as-michigan-index-surpasses-expectations-93CH-5042110</link>
+    </item>
+    <item>
+      <enclosure url="https://content-media.investing.com/trkd-images/LYNXNPEMAJ16Y_L.jpg" length="112196" type="image/jpeg"/>
+      <title>Canada retail sales rise 0.8% in September; likely to be down 1.5% in October</title>
+      <pubDate>2026-11-20 14:24:18</pubDate>
+      <author>Reuters</author>
+      <link>https://www.investing.com/news/economic-indicators/canada-retail-sales-rise-08-in-september-likely-to-be-down-15-in-october-5041937</link>
+    </item>
+</channel>
+</rss>

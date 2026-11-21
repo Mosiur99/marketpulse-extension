@@ -9,7 +9,6 @@ export const DEFAULT_FEEDS = Object.freeze([
   { id: 'cnbc-finance', name: 'CNBC Finance', source: 'CNBC', url: 'https://www.cnbc.com/id/10000664/device/rss/rss.html', categoryHint: 'stocks' },
   { id: 'cnbc-earnings', name: 'CNBC Earnings', source: 'CNBC', url: 'https://www.cnbc.com/id/15839135/device/rss/rss.html', categoryHint: 'earnings' },
   { id: 'mw-top', name: 'MarketWatch Top Stories', source: 'MarketWatch', url: 'https://feeds.content.dowjones.io/public/rss/mw_topstories', categoryHint: 'stocks' },
-  { id: 'mw-pulse', name: 'MarketWatch MarketPulse', source: 'MarketWatch', url: 'https://feeds.content.dowjones.io/public/rss/mw_marketpulse', categoryHint: 'stocks' },
   { id: 'investing-all', name: 'Investing.com All News', source: 'Investing.com', url: 'https://www.investing.com/rss/news.rss', categoryHint: 'stocks' },
   { id: 'investing-forex', name: 'Investing.com Forex', source: 'Investing.com', url: 'https://www.investing.com/rss/news_1.rss', categoryHint: 'forex' },
   { id: 'investing-commodities', name: 'Investing.com Commodities', source: 'Investing.com', url: 'https://www.investing.com/rss/news_11.rss', categoryHint: 'metals' },

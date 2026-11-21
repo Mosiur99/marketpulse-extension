@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Commodities &amp; Futures News</title>
+    <link>https://www.investing.com</link>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/LYNXMPEM4R0QN_1200_L.jpg" length="140149" type="image/jpeg"/>
+      <title>Army toxic detonation in Iowa paused amid public outcry, farm disruption</title>
+      <pubDate>2026-11-21 00:36:47</pubDate>
+      <author>Reuters</author>
+      <link>https://www.investing.com/news/commodities-news/army-toxic-detonation-in-iowa-paused-amid-public-outcry-farm-disruption-5042953</link>
+    </item>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/LYNXNPEBAI13Z_M.jpg" length="20138" type="image/jpeg"/>
+      <title>Oil prices settle lower, post 3-week losing streak amid improving crude supplies</title>
+      <pubDate>2026-11-20 23:02:54</pubDate>
+      <author>Investing.com</author>
+      <link>https://www.investing.com/news/commodities-news/oil-prices-rise-as-meast-tensions-persist-set-for-third-week-in-red-5040503</link>
+    </item>
+    <item>
+      <enclosure url="https://content-media.investing.com/news/LYNXMPED4U0TY-ORUBS_M.jpg" length="18101" type="image/jpeg"/>
+      <title>Spot gold posts worst week in 8 months, futures notch worst week since March 2020</title>
+      <pubDate>2026-11-20 22:23:04</pubDate>
+      <author>Investing.com</author>
+      <link>https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648</link>
+    </item>
+</channel>
+</rss>

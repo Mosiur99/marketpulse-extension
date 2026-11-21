@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/10000664/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Finance</title>
+    <feed_asset>
+      <id>10000664</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/finance/</seo>
+    </feed_asset>
+    <lastBuildDate>Sat, 21 Nov 2026 07:37 GMT</lastBuildDate>
+    <pubDate>Sat, 21 Nov 2026 07:37 GMT</pubDate>
+    <link>https://www.cnbc.com/finance/</link>
+    <description><![CDATA[Latest investing news and finance headlines straight from Wall Street.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html</link>
+      <guid isPermaLink="false">108554745</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108554745</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How China is using summits to expand its global influence</title>
+      <description><![CDATA[Chinese President Xi Jinping has helped coordinate yet another photo-op of global significance.]]></description>
+      <pubDate>Sat, 21 Nov 2026 06:00:02 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html</link>
+      <guid isPermaLink="false">108556598</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108556598</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Prediction markets outlook for stocks in 2026 dims amid AI sell-off</title>
+      <description><![CDATA[Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.]]></description>
+      <pubDate>Fri, 20 Nov 2026 19:59:03 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html</link>
+      <guid isPermaLink="false">108555723</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>108555723</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Warsh wants Fed officials to talk less. Instead, they’re talking more</title>
+      <description><![CDATA[Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.]]></description>
+      <pubDate>Fri, 20 Nov 2026 21:10:48 GMT</pubDate>
+    </item>
+</channel>
+</rss>
