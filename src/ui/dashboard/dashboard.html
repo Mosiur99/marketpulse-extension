@@ -1,14 +1,67 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
-  <title>MarketPulse Dashboard</title>
-  <link rel="stylesheet" href="../shared/base.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MarketPulse</title>
+  <link rel="icon" href="../../../icons/icon32.png">
+  <link rel="stylesheet" href="../shared/tokens.css">
+  <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
-  <main class="page">
-    <h1>MarketPulse Dashboard</h1>
-    <p class="muted">This page is built in a later step.</p>
-  </main>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" id="logo"></span>
+      <h1>MarketPulse</h1>
+    </div>
+    <div class="clock" aria-label="Current date and time">
+      <span id="clock-date"></span>
+      <time id="clock-time"></time>
+      <span class="utc" id="clock-utc"></span>
+    </div>
+    <div class="status" id="refresh-status" aria-live="polite"></div>
+    <div class="actions">
+      <button class="btn btn-primary" id="refresh" type="button"></button>
+      <button class="btn icon-btn btn-ghost" id="notifications" type="button"></button>
+      <button class="btn icon-btn btn-ghost" id="theme" type="button"></button>
+      <a class="btn icon-btn btn-ghost" id="settings" href="../options/options.html" title="Settings" aria-label="Settings"></a>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" aria-label="Filters">
+      <nav class="views" id="views" aria-label="Views"></nav>
+      <section class="side-block">
+        <h2 class="label">Categories</h2>
+        <div class="categories" id="categories"></div>
+      </section>
+      <section class="side-block">
+        <label class="label" for="source">Source</label>
+        <select id="source"><option value="">All sources</option></select>
+      </section>
+    </aside>
+
+    <main class="main">
+      <div class="searchbar">
+        <span class="search-icon" id="search-icon"></span>
+        <input id="search" type="search" placeholder="Search headlines, summaries and sources" aria-label="Search news">
+      </div>
+      <div class="active-filters" id="active-filters"></div>
+      <section class="overview" id="overview" aria-label="Market overview"></section>
+      <section aria-labelledby="feed-title">
+        <div class="feed-head">
+          <h2 id="feed-title">Latest news</h2>
+          <span class="count num" id="feed-count"></span>
+        </div>
+        <div class="feed" id="feed"></div>
+        <button class="btn more" id="more" type="button" hidden>Show more</button>
+      </section>
+    </main>
+
+    <aside class="stats" id="stats" aria-label="Statistics"></aside>
+  </div>
+
+  <p class="disclaimer">Headlines come from public RSS feeds and are ranked by keyword rules. MarketPulse does not predict market moves and is not investment advice.</p>
+  <script type="module" src="dashboard.js"></script>
 </body>
 </html>

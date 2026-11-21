@@ -1,14 +1,146 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MarketPulse Settings</title>
-  <link rel="stylesheet" href="../shared/base.css">
+  <link rel="icon" href="../../../icons/icon32.png">
+  <link rel="stylesheet" href="../shared/tokens.css">
+  <link rel="stylesheet" href="options.css">
 </head>
 <body>
-  <main class="page">
-    <h1>MarketPulse Settings</h1>
-    <p class="muted">This page is built in a later step.</p>
-  </main>
+  <header class="topbar">
+    <div class="brand"><span class="logo" id="logo"></span><h1>MarketPulse Settings</h1></div>
+    <a class="btn" href="../dashboard/dashboard.html">Open dashboard</a>
+  </header>
+
+  <div class="layout">
+    <nav class="toc" aria-label="Sections">
+      <a href="#feeds">News sources</a>
+      <a href="#refresh">Refresh &amp; alerts</a>
+      <a href="#categories">Categories</a>
+      <a href="#scoring">Priority &amp; keywords</a>
+      <a href="#display">Display &amp; storage</a>
+      <a href="#backup">Backup</a>
+      <a href="#advanced">Advanced</a>
+    </nav>
+
+    <main class="main">
+      <section class="card" id="feeds" aria-labelledby="feeds-title">
+        <div class="card-head">
+          <div>
+            <h2 id="feeds-title">News sources</h2>
+            <p class="hint">Public RSS or Atom feeds. Changes here are saved at once. MarketPulse never scrapes web pages.</p>
+          </div>
+          <button class="btn" id="test-all" type="button">Test all feeds</button>
+        </div>
+        <div class="feed-list" id="feed-list"></div>
+        <form class="add-feed" id="add-feed" novalidate>
+          <h3>Add a feed</h3>
+          <div class="row">
+            <label class="field grow"><span>Feed address</span><input id="feed-url" type="url" placeholder="https://example.com/rss.xml" required></label>
+            <label class="field"><span>Name</span><input id="feed-name" type="text" placeholder="Example News" maxlength="80" required></label>
+            <label class="field"><span>Category</span><select id="feed-category"></select></label>
+            <button class="btn btn-primary" type="submit" id="feed-add"></button>
+          </div>
+          <p class="hint">Chrome will ask you to allow MarketPulse to read that one site. The feed is tested before it is added.</p>
+          <p class="form-error" id="feed-error" role="alert"></p>
+        </form>
+        <div class="card-foot">
+          <button class="btn btn-ghost btn-danger" id="reset-feeds" type="button">Reset to default feeds</button>
+        </div>
+      </section>
+
+      <form id="settings-form" novalidate>
+        <section class="card" id="refresh" aria-labelledby="refresh-title">
+          <h2 id="refresh-title">Refresh &amp; alerts</h2>
+          <div class="grid">
+            <label class="field"><span>Check feeds every (minutes)</span><input id="refreshMinutes" type="number" min="5" max="120" step="1"><small class="error" data-for="refreshMinutes"></small></label>
+            <label class="field"><span>Show alerts for</span>
+              <select id="notifyMinPriority">
+                <option value="high">High priority only</option>
+                <option value="medium">Medium and high</option>
+                <option value="low">Every new story</option>
+              </select>
+            </label>
+            <label class="field"><span>Alert style</span>
+              <select id="notifyMode">
+                <option value="each">One alert per story</option>
+                <option value="digest">One summary per refresh</option>
+              </select>
+            </label>
+            <label class="field"><span>Most single alerts per refresh</span><input id="maxNotificationsPerRefresh" type="number" min="1" max="10" step="1"><small class="error" data-for="maxNotificationsPerRefresh"></small></label>
+          </div>
+          <label class="switch"><input type="checkbox" id="notificationsEnabled"><span class="track"></span><span>Desktop notifications</span></label>
+          <fieldset class="checks">
+            <legend>Alert me about these categories</legend>
+            <div class="check-grid" id="notifyCategories"></div>
+          </fieldset>
+          <div><button class="btn" id="test-notification" type="button">Send a test notification</button></div>
+        </section>
+
+        <section class="card" id="categories" aria-labelledby="categories-title">
+          <h2 id="categories-title">Categories</h2>
+          <p class="hint">Hidden categories are left out of the dashboard, the popup and alerts.</p>
+          <div class="check-grid" id="enabledCategories"></div>
+        </section>
+
+        <section class="card" id="scoring" aria-labelledby="scoring-title">
+          <h2 id="scoring-title">Priority &amp; keywords</h2>
+          <p class="hint">Each story gets a score from keyword rules: a keyword counts twice in the headline, official sources count 1.5 times, and each other publisher reporting the same story adds 2.</p>
+          <div class="grid">
+            <label class="field"><span>High priority from score</span><input id="highThreshold" type="number" min="1" max="100" step="1"><small class="error" data-for="highThreshold"></small></label>
+            <label class="field"><span>Medium priority from score</span><input id="mediumThreshold" type="number" min="1" max="100" step="1"><small class="error" data-for="mediumThreshold"></small></label>
+          </div>
+          <h3>Your keywords</h3>
+          <p class="hint">Add companies, assets or topics you care about. "Always alert" sends a notification for any story that mentions it.</p>
+          <div class="keywords" id="keywords"></div>
+          <div class="row">
+            <label class="field grow"><span>Keyword or phrase</span><input id="keyword-term" type="text" maxlength="60" placeholder="e.g. Nvidia, remittance, Brent crude"></label>
+            <label class="field"><span>Weight (1–10)</span><input id="keyword-weight" type="number" min="1" max="10" value="3"></label>
+            <label class="switch inline"><input type="checkbox" id="keyword-alert"><span class="track"></span><span>Always alert</span></label>
+            <button class="btn" id="keyword-add" type="button"></button>
+          </div>
+          <small class="error" data-for="customKeywords"></small>
+        </section>
+
+        <section class="card" id="display" aria-labelledby="display-title">
+          <h2 id="display-title">Display &amp; storage</h2>
+          <div class="grid">
+            <label class="field"><span>Theme</span>
+              <select id="theme"><option value="dark">Dark</option><option value="light">Light</option></select>
+            </label>
+            <label class="field"><span>Stories to keep (100–2000)</span><input id="maxArticles" type="number" min="100" max="2000" step="50"><small class="error" data-for="maxArticles"></small></label>
+            <label class="field"><span>Keep stories for (days)</span><input id="retentionDays" type="number" min="1" max="30" step="1"><small class="error" data-for="retentionDays"></small></label>
+          </div>
+          <p class="hint" id="usage"></p>
+          <div><button class="btn btn-ghost btn-danger" id="clear-news" type="button">Delete stored news</button></div>
+        </section>
+
+        <section class="card" id="backup" aria-labelledby="backup-title">
+          <h2 id="backup-title">Backup</h2>
+          <p class="hint">Export your settings, feeds and bookmarks to a file, or restore them from one.</p>
+          <div class="row">
+            <button class="btn" id="export" type="button">Export to file</button>
+            <label class="btn" for="import-file">Import from file</label>
+            <input class="sr-only" id="import-file" type="file" accept="application/json,.json">
+          </div>
+        </section>
+
+        <section class="card" id="advanced" aria-labelledby="advanced-title">
+          <h2 id="advanced-title">Advanced</h2>
+          <label class="switch"><input type="checkbox" id="debugLogging"><span class="track"></span><span>Detailed logs in the service worker console</span></label>
+          <p class="hint">Open chrome://extensions, find MarketPulse and click "service worker" to see the logs.</p>
+        </section>
+
+        <div class="savebar" id="savebar">
+          <span id="save-status" aria-live="polite"></span>
+          <button class="btn" id="revert" type="button">Undo changes</button>
+          <button class="btn btn-primary" id="save" type="submit">Save changes</button>
+        </div>
+      </form>
+    </main>
+  </div>
+  <script type="module" src="options.js"></script>
 </body>
 </html>

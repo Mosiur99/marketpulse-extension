@@ -81,3 +81,10 @@ function isFeedUrl(value) {
     return false;
   }
 }
+
+export function newFeedId(name, existingIds) {
+  const base = name.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40) || 'feed';
+  let id = base;
+  for (let n = 2; existingIds.includes(id); n += 1) id = `${base}-${n}`;
+  return id;
+}

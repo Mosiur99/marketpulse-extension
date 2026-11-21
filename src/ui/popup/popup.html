@@ -1,20 +1,32 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <title>MarketPulse</title>
-  <link rel="stylesheet" href="../shared/base.css">
+  <link rel="stylesheet" href="../shared/tokens.css">
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <main class="popup">
-    <h1>MarketPulse</h1>
-    <p class="muted">Market news from free RSS feeds.</p>
-    <div class="actions">
-      <button type="button" id="open-dashboard">Open dashboard</button>
-      <button type="button" id="open-options">Settings</button>
-    </div>
+  <header class="head">
+    <div class="brand"><span class="logo" id="logo"></span><h1>MarketPulse</h1></div>
+    <button class="btn icon-btn btn-ghost" id="refresh" type="button" title="Refresh now" aria-label="Refresh now"></button>
+  </header>
+  <div class="bar">
+    <span id="status" class="status" aria-live="polite"></span>
+    <label class="switch" title="Desktop notifications">
+      <input type="checkbox" id="notify">
+      <span class="track"></span>
+      <span class="switch-label">Alerts</span>
+    </label>
+  </div>
+  <main>
+    <h2 class="label">Important now</h2>
+    <ol class="list" id="list"></ol>
   </main>
+  <footer class="foot">
+    <button class="btn btn-primary" id="open-dashboard" type="button">Open dashboard</button>
+    <button class="btn" id="open-options" type="button">Settings</button>
+  </footer>
   <script type="module" src="popup.js"></script>
 </body>
 </html>
